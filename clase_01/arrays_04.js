@@ -9,9 +9,14 @@ const size_meses = meses.length  // Tamaño del array de meses
 const size_fechas = fechas.length  // Tamaño del array de fechas
 const size_dias = dias.length  // Tamaño del array de dias
 
-for (let i = 0; i < size_meses; i= i +1 ) {
+for (let i = 10; i < size_meses; i= i +11 ) {
   console.log(meses[i])
 }
-
-
+for (let i = 1; i < size_fechas; i= i +30 ) {
+  console.log(dias[i])
+}
+for (let i = 1; i < size_dias; i= i +10
+ ) {
+  console.log(dias[i])
+}
 // Ahora recorre el array de "dias" usando el loop for, como el ejemplo de arriba
